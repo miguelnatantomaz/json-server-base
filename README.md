@@ -66,5 +66,13 @@ POST /animals
 
 Lembrando que precisa do token para fazer o POST
 
+É possivel editar algum animal ja criado. EXEMPLO:
+PATCH /animals/:idDoAnimal
+
+{
+"name": "Pitbull",
+"userId": 1
+}
+
 Para acessar todos animais pode ser feito um GET, exemplo:
 GET /animals <br/>
