@@ -56,7 +56,9 @@ Lembrando que precisa estar autenticado
 POST /animals <br/>
 
 Existem 1 endpoint que pode ser utilizado para cadastrar um animal
+
 POST /animals
+
 {
 "name": "Cachorro",
 "family": "Canidae",
@@ -74,5 +76,6 @@ PATCH /animals/:idDoAnimal
 "userId": 1
 }
 
-Para acessar todos animais pode ser feito um GET, exemplo:
+Para acessar todos animais pode ser feito um GET
+
 GET /animals <br/>
