@@ -14,6 +14,7 @@ POST /users
 
 EXEMPLO:
 POST /register
+
 {
 "email": "olivier@mail.com",
 "password": "bestPassw0rd",
@@ -34,6 +35,7 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 EXEMPLO:
 POST /login
+
 {
 "email": "olivier@mail.com",
 "password": "bestPassw0rd"
@@ -41,6 +43,7 @@ POST /login
 
 EXEMPLO de resposta:
 200 OK
+
 {
 "accessToken": "xxx.xxx.xxx"
 }
