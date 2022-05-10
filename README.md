@@ -54,6 +54,10 @@ GET /users <br/>
 
 Lembrando que precisa estar autenticado
 
+#### Caso queira ver algum usuario especifico
+
+GET /users/:idOwner <br/>
+
 ### Animal
 
 POST /animals <br/>
