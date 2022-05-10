@@ -34,13 +34,16 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 EXEMPLO:
 POST /login
+
 {
 "email": "olivier@mail.com",
 "password": "bestPassw0rd"
 }
 
 EXEMPLO de resposta:
+
 200 OK
+
 {
 "accessToken": "xxx.xxx.xxx"
 }
