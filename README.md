@@ -14,6 +14,7 @@ POST /users
 
 EXEMPLO:
 POST /register
+
 {
 "email": "olivier@mail.com",
 "password": "bestPassw0rd",
@@ -53,6 +54,10 @@ EXEMPLO de resposta:
 GET /users <br/>
 
 Lembrando que precisa estar autenticado
+
+#### Caso queira ver algum usuario especifico
+
+GET /users/:idOwner <br/>
 
 ### Animal
 
